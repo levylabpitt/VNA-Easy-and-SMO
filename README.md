@@ -1,4 +1,4 @@
-# VNA-Easy-and-SMO
+# VNA_Easy and VNA_SMO
 
 ## Usage
 - Get drivers from [NI](https://knowledge.ni.com/KnowledgeArticleDetails?id=kA03q000000x3XpCAI&l=en-US)
