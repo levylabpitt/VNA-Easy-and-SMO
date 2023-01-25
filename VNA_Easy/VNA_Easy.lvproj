@@ -792,28 +792,6 @@
 				<Item Name="Caraya Interactive Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/menu/Caraya Interactive Menu.rtm"/>
 				<Item Name="NI_AAL_SigProc.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_SigProc.lvlib"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
-				<Item Name="DFD MRate Filter Design.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Design.llb/DFD MRate Filter Design.vi"/>
-				<Item Name="DFD Multirate Filtering Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/_Objects.llb/DFD Multirate Filtering Mode.ctl"/>
-				<Item Name="DFD NStage MRate Filter Design.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Design.llb/DFD NStage MRate Filter Design.vi"/>
-				<Item Name="DFD NStage MRate Filtering.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Multirate.llb/DFD NStage MRate Filtering.vi"/>
-				<Item Name="DFD Multirate Filter Specification (Design).ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/_Objects.llb/DFD Multirate Filter Specification (Design).ctl"/>
-				<Item Name="DFD MRate Filter Design (Integer).vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Design.llb/DFD MRate Filter Design (Integer).vi"/>
-				<Item Name="DFD MRate Filtering.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Multirate.llb/DFD MRate Filtering.vi"/>
-				<Item Name="DFD NStage MRate Filtering (Wfm).vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Multirate.llb/DFD NStage MRate Filtering (Wfm).vi"/>
-				<Item Name="DFD MRate Filtering (Wfm NChan).vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Multirate.llb/DFD MRate Filtering (Wfm NChan).vi"/>
-				<Item Name="DFD Nyquist Design.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Design.llb/DFD Nyquist Design.vi"/>
-				<Item Name="DFD Plot MRate Freq Response.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Analysis.llb/DFD Plot MRate Freq Response.vi"/>
-				<Item Name="DFD Plot NStage MRate Freq Response.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Analysis.llb/DFD Plot NStage MRate Freq Response.vi"/>
-				<Item Name="DFD NStage MRate Filtering for Single Block.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Multirate.llb/DFD NStage MRate Filtering for Single Block.vi"/>
-				<Item Name="DFD NStage MRate Filtering for Single Block (Wfm).vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Multirate.llb/DFD NStage MRate Filtering for Single Block (Wfm).vi"/>
-				<Item Name="DFD MRate Filtering for Single Block.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Multirate.llb/DFD MRate Filtering for Single Block.vi"/>
-				<Item Name="DFD MRate Filtering for Single Block (Wfm NChan).vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Multirate.llb/DFD MRate Filtering for Single Block (Wfm NChan).vi"/>
-				<Item Name="DFD IIR Notch Peak Design.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Design.llb/DFD IIR Notch Peak Design.vi"/>
-				<Item Name="DFD IIR Notch Peak Design by Q.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Design.llb/DFD IIR Notch Peak Design by Q.vi"/>
-				<Item Name="DFD Filtering.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Process.llb/DFD Filtering.vi"/>
-				<Item Name="DFD Cascade Filters.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/StructCvt.llb/DFD Cascade Filters.vi"/>
-				<Item Name="DFD Filtering (Wfm NChan).vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Process.llb/DFD Filtering (Wfm NChan).vi"/>
-				<Item Name="DFD Butterworth Design.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Design.llb/DFD Butterworth Design.vi"/>
 				<Item Name="DAQmx Is Task Done.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Is Task Done.vi"/>
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
@@ -830,6 +808,18 @@
 				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
+				<Item Name="NI_DigFilterLicensed.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Digital Filter Design/NI_DigFilterLicensed.lvlib"/>
+				<Item Name="NI_DigFilter_Design.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Digital Filter Design/NI_DigFilter_Design.lvlib"/>
+				<Item Name="NI_DigFilter_Process.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Digital Filter Design/NI_DigFilter_Process.lvlib"/>
+				<Item Name="remez_fir order and types.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/_REMEZ.llb/remez_fir order and types.ctl"/>
+				<Item Name="remez_band specification.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/_REMEZ.llb/remez_band specification.ctl"/>
+				<Item Name="remez_single band description.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/_REMEZ.llb/remez_single band description.ctl"/>
+				<Item Name="remez_Filter Implementation Info.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/_REMEZ.llb/remez_Filter Implementation Info.ctl"/>
+				<Item Name="remez_Filter Design Info.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/_REMEZ.llb/remez_Filter Design Info.ctl"/>
+				<Item Name="remez_Filter Specification Parsing States.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/_REMEZ.llb/remez_Filter Specification Parsing States.ctl"/>
+				<Item Name="NI_AAL_Filter.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Filter.lvlib"/>
+				<Item Name="dfd_Mutate Filter Obj QSetting 0x100 to 0x200.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/_Objects.llb/dfd_Mutate Filter Obj QSetting 0x100 to 0x200.vi"/>
+				<Item Name="NI_DigFilter_FXP.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Digital Filter Design/NI_DigFilter_FXP.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Dictionary Object RefNum - Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Object RefNum - Enum__ogtk.ctl"/>
@@ -1301,13 +1291,20 @@
 				<Item Name="MGI Interpolate 1D Array Extended.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Interpolate 1D Array Extended.vi"/>
 				<Item Name="lvzlib.dll" Type="Document" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzlib.dll"/>
 				<Item Name="Control Experiment.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Transport/Control Experiment/Control Experiment.lvclass"/>
+				<Item Name="LV-Data.AWS CLI.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV-Data/LV-Data.AWS CLI/LV-Data.AWS CLI.lvclass"/>
+				<Item Name="MGI Populate Tree with Delimited Strings.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Tree/MGI Populate Tree with Delimited Strings.vi"/>
+				<Item Name="MGI Tree Rows from Delimited String Array.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Tree/MGI Tree Rows from Delimited String Array.vi"/>
+				<Item Name="MGI Defer Panel Updates.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Defer Panel Updates.vi"/>
+				<Item Name="MGI VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference.vi"/>
+				<Item Name="MGI Caller&apos;s VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Caller&apos;s VI Reference.vi"/>
+				<Item Name="MGI Current VI&apos;s Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Current VI&apos;s Reference.vi"/>
+				<Item Name="MGI Top Level VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Top Level VI Reference.vi"/>
+				<Item Name="MGI Level&apos;s VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Level&apos;s VI Reference.vi"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="lp-server-timeouts.vi" Type="VI" URL="/../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/zeromq/examples/lazy-pirate/lp-server-timeouts.vi"/>
-			<Item Name="lp-client.vi" Type="VI" URL="/../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/zeromq/examples/lazy-pirate/lp-client.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1317,6 +1314,9 @@
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lp-server-timeouts.vi" Type="VI" URL="/../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/zeromq/examples/lazy-pirate/lp-server-timeouts.vi"/>
+			<Item Name="lp-client.vi" Type="VI" URL="/../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/zeromq/examples/lazy-pirate/lp-client.vi"/>
+			<Item Name="LVDFD.dll" Type="Document" URL="/&lt;resource&gt;/LVDFD.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
