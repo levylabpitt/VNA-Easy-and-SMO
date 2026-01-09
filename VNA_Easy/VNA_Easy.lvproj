@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="19008000">
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">19.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -26,106 +26,106 @@
 		<Item Name="VNA_CW.vi" Type="VI" URL="../VNA_CW.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="D2XX-lv.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_D2XX/D2XX-LV/D2XX-lv.lvlib"/>
-				<Item Name="D2XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_D2XX/D2XX/D2XX.lvlib"/>
-				<Item Name="Agilent 87XX Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 87XX Series/Agilent 87XX Series.lvlib"/>
+				<Item Name="D2XX-lv.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/instr.lib/_D2XX/D2XX-LV/D2XX-lv.lvlib"/>
+				<Item Name="D2XX.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/instr.lib/_D2XX/D2XX/D2XX.lvlib"/>
+				<Item Name="Agilent 87XX Series.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/instr.lib/Agilent 87XX Series/Agilent 87XX Series.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
-				<Item Name="Transport.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Transport/Transport/Transport.lvclass"/>
-				<Item Name="Control Experiment.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Transport/Control Experiment/Control Experiment.lvclass"/>
-				<Item Name="Instrument.LockinAPI.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument Types/Lockin/Instrument.LockinAPI.lvclass"/>
-				<Item Name="openg_time.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/openg_time.lvlib"/>
-				<Item Name="Instrument.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument.lvlib"/>
-				<Item Name="openg_string.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/openg_string.lvlib"/>
-				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
-				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
-				<Item Name="openg_application_control.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/openg_application_control.lvlib"/>
-				<Item Name="openg_file.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/openg_file.lvlib"/>
-				<Item Name="openg_array.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/openg_array.lvlib"/>
-				<Item Name="openg_numeric__ogtk.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/openg_numeric__ogtk.lvlib"/>
-				<Item Name="Random Number - Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number - Within Range__ogtk.vi"/>
-				<Item Name="RemoteControl.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/RemoteControl/RemoteControl.lvlib"/>
-				<Item Name="Debug.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Debug/Debug.lvlib"/>
-				<Item Name="Configuration.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Configuration/Configuration.lvclass"/>
-				<Item Name="openg_variant_configuration_file.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/openg_variant_configuration_file.lvlib"/>
-				<Item Name="Logger.PGSQL.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Logger.PGSQL/Logger.PGSQL.lvlib"/>
-				<Item Name="Logger.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Logger/Logger.lvlib"/>
-				<Item Name="LV-Data.PGSQL.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV-Data/LV-Data.PG/LV-Data.PGSQL.lvclass"/>
-				<Item Name="PGPASS.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/LV-Data/LV-Data.PG/PGPASS/PGPASS.lvlib"/>
-				<Item Name="LV-Data.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV-Data/LV-Data/LV-Data.lvclass"/>
-				<Item Name="LV-Data.DAT.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV-Data/LV-Data.DAT/LV-Data.DAT.lvclass"/>
-				<Item Name="LV-Data.ITX.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV-Data/LV-Data.ITX/LV-Data.ITX.lvclass"/>
-				<Item Name="ITX Commands.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV-Data/LV-Data.ITX/ITX Commands/ITX Commands.lvclass"/>
-				<Item Name="MGI Approximately Equal.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Numeric/Comparison/MGI Approximately Equal.vi"/>
-				<Item Name="LV-Data.TDMS.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV-Data/LV-Data.TDMS/LV-Data.TDMS.lvclass"/>
-				<Item Name="Number to String.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Number to String.vi"/>
-				<Item Name="Conversion.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV-Data/Macros/Conversion.lvclass"/>
-				<Item Name="Dictionary Create__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Create__ogtk.vi"/>
-				<Item Name="Dictionary Data__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Data__ogtk.ctl"/>
-				<Item Name="Dictionary Object RefNum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Object RefNum__ogtk.ctl"/>
-				<Item Name="Dictionary Object RefNum - Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Object RefNum - Enum__ogtk.ctl"/>
-				<Item Name="Dictionary New__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary New__ogtk.vi"/>
-				<Item Name="Dictionary Open Object Reference__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Open Object Reference__ogtk.vi"/>
-				<Item Name="Dictionary Object Data Core Task Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Object Data Core Task Enum__ogtk.ctl"/>
-				<Item Name="Dictionary Object Ref Type__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Object Ref Type__ogtk.vi"/>
-				<Item Name="Dictionary Object Data Store VI Ref Type__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Object Data Store VI Ref Type__ogtk.vi"/>
-				<Item Name="Dictionary Object Data Store__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Object Data Store__ogtk.vi"/>
-				<Item Name="Dictionary Default Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Default Data__ogtk.vi"/>
-				<Item Name="Dictionary Data Store VI Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Data Store VI Name__ogtk.vi"/>
-				<Item Name="Dictionary Data Core__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Data Core__ogtk.vi"/>
-				<Item Name="Dictionary Get Data to Modify__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Get Data to Modify__ogtk.vi"/>
-				<Item Name="Dictionary Get Instance Semaphore RefNum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Get Instance Semaphore RefNum__ogtk.vi"/>
-				<Item Name="Dictionary Set Modified Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Set Modified Data__ogtk.vi"/>
-				<Item Name="Dictionary Get Value__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Get Value__ogtk.vi"/>
-				<Item Name="Dictionary Get Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Get Data__ogtk.vi"/>
-				<Item Name="Dictionary Destroy__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Destroy__ogtk.vi"/>
-				<Item Name="Dictionary Delete__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Delete__ogtk.vi"/>
-				<Item Name="Dictionary Close Object Reference__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Close Object Reference__ogtk.vi"/>
-				<Item Name="Dictionary Get Keys__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Get Keys__ogtk.vi"/>
-				<Item Name="Increment Filename.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Increment Filename.vi"/>
-				<Item Name="Is String Number.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Support/Is String Number.vi"/>
-				<Item Name="Logger.Error.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Logger.Error/Logger.Error.lvlib"/>
-				<Item Name="Instrument-VIM.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument-VIM/Instrument-VIM.lvlib"/>
-				<Item Name="MGI Get Executable Version.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Get Executable Version.vi"/>
-				<Item Name="RemoteControl.ZMQ.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/RemoteControl.ZMQ/RemoteControl.ZMQ.lvlib"/>
-				<Item Name="Instrument.Amplifier.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument Types/Amplifier/Instrument.Amplifier.lvclass"/>
-				<Item Name="openg_boolean__ogtk.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/openg_boolean__ogtk.lvlib"/>
-				<Item Name="Instrument.CBridge.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument Types/CBridge/Instrument.CBridge.lvclass"/>
-				<Item Name="Instrument.DelayLine.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument Types/Delay Line/Instrument.DelayLine.lvclass"/>
-				<Item Name="Instrument.Strain.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument Types/Strain/Instrument.Strain.lvclass"/>
-				<Item Name="Instrument.VNA.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument Types/VNA/Instrument.VNA.lvclass"/>
-				<Item Name="Instrument.VSource.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument Types/VSource/Instrument.VSource.lvclass"/>
-				<Item Name="KH7008.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Krohn Hite 7008/KH7008/KH7008.lvlib"/>
-				<Item Name="YAML.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/PLYM/YAML.lvclass"/>
-				<Item Name="MGI Remove All Whitespace.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Remove All Whitespace.vi"/>
-				<Item Name="Dictionary Get Items__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Get Items__ogtk.vi"/>
-				<Item Name="Dictionary Not a Dictionary__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Not a Dictionary__ogtk.vi"/>
-				<Item Name="Dictionary Key Value Pair Cluster__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Key Value Pair Cluster__ogtk.ctl"/>
-				<Item Name="Dictionary Has Key__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Has Key__ogtk.vi"/>
-				<Item Name="Dictionary Update__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Update__ogtk.vi"/>
-				<Item Name="Dictionary Update (by value)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Update (by value)__ogtk.vi"/>
-				<Item Name="Dictionary Update (by reference)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Update (by reference)__ogtk.vi"/>
-				<Item Name="Dictionary Update (by scalar value)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Update (by scalar value)__ogtk.vi"/>
-				<Item Name="Inst.KH7008.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Krohn Hite 7008/Inst.KH7008.lvlib"/>
-				<Item Name="Instrument.Lockin.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Lockin-Multichannel/Instrument.Lockin.lvlib"/>
-				<Item Name="DAQmx.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Lockin-Multichannel/DAQmx/DAQmx.lvclass"/>
-				<Item Name="MGI String Pattern Match Exists.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI String Pattern Match Exists.vi"/>
-				<Item Name="Generator.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Lockin-Multichannel/Generator/Generator.lvclass"/>
-				<Item Name="DSP.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Lockin-Multichannel/DSP/DSP.lvclass"/>
-				<Item Name="Ramp_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Control VI/Other/Ramp_SubVI.vi"/>
-				<Item Name="MGI Milliseconds Since Last Call.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Milliseconds Since Last Call.vi"/>
-				<Item Name="MGI Milliseconds Since Last Reset.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Milliseconds Since Last Reset.vi"/>
-				<Item Name="MGI Create Directory Chain Behavior Enum.ctl" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Create Directory Chain Behavior Enum.ctl"/>
-				<Item Name="MGI Create Directory Chain.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Create Directory Chain.vi"/>
-				<Item Name="Inst.Transport.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Transport/Transport Server/Inst.Transport/Inst.Transport.lvclass"/>
-				<Item Name="Instrument.SCPI.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument Types/SCPI/Instrument.SCPI.lvclass"/>
-				<Item Name="Instrument.SignalGenerator.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument Types/SignalGenerator/Instrument.SignalGenerator.lvclass"/>
-				<Item Name="MGI True if Odd.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Numeric/Comparison/MGI True if Odd.vi"/>
-				<Item Name="MGI Is Runtime.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Is Runtime.vi"/>
-				<Item Name="MGI Wait.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Wait.vi"/>
-				<Item Name="MGI Wait (U32).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Wait/MGI Wait (U32).vi"/>
-				<Item Name="MGI Wait (Double).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Wait/MGI Wait (Double).vi"/>
+				<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Instrument Framework/Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
+				<Item Name="Transport.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Transport/Transport/Transport.lvclass"/>
+				<Item Name="Control Experiment.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Transport/Control Experiment/Control Experiment.lvclass"/>
+				<Item Name="Instrument.LockinAPI.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Instrument Framework/Instrument Types/Lockin/Instrument.LockinAPI.lvclass"/>
+				<Item Name="openg_time.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/time/time.llb/openg_time.lvlib"/>
+				<Item Name="Instrument.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Instrument Framework/Instrument.lvlib"/>
+				<Item Name="openg_string.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/string/string.llb/openg_string.lvlib"/>
+				<Item Name="openg_variant.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
+				<Item Name="openg_error.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
+				<Item Name="openg_application_control.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/appcontrol/appcontrol.llb/openg_application_control.lvlib"/>
+				<Item Name="openg_file.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/file/file.llb/openg_file.lvlib"/>
+				<Item Name="openg_array.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/array/array.llb/openg_array.lvlib"/>
+				<Item Name="openg_numeric__ogtk.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/numeric/numeric.llb/openg_numeric__ogtk.lvlib"/>
+				<Item Name="Random Number - Within Range__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/numeric/numeric.llb/Random Number - Within Range__ogtk.vi"/>
+				<Item Name="RemoteControl.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/RemoteControl/RemoteControl.lvlib"/>
+				<Item Name="Debug.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Debug/Debug.lvlib"/>
+				<Item Name="Configuration.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Configuration/Configuration.lvclass"/>
+				<Item Name="openg_variant_configuration_file.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/variantconfig/variantconfig.llb/openg_variant_configuration_file.lvlib"/>
+				<Item Name="Logger.PGSQL.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Logger.PGSQL/Logger.PGSQL.lvlib"/>
+				<Item Name="Logger.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Logger/Logger.lvlib"/>
+				<Item Name="LV-Data.PGSQL.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/LV-Data/LV-Data.PG/LV-Data.PGSQL.lvclass"/>
+				<Item Name="PGPASS.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/LV-Data/LV-Data.PG/PGPASS/PGPASS.lvlib"/>
+				<Item Name="LV-Data.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/LV-Data/LV-Data/LV-Data.lvclass"/>
+				<Item Name="LV-Data.DAT.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/LV-Data/LV-Data.DAT/LV-Data.DAT.lvclass"/>
+				<Item Name="LV-Data.ITX.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/LV-Data/LV-Data.ITX/LV-Data.ITX.lvclass"/>
+				<Item Name="ITX Commands.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/LV-Data/LV-Data.ITX/ITX Commands/ITX Commands.lvclass"/>
+				<Item Name="MGI Approximately Equal.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_MGI/Numeric/Comparison/MGI Approximately Equal.vi"/>
+				<Item Name="LV-Data.TDMS.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/LV-Data/LV-Data.TDMS/LV-Data.TDMS.lvclass"/>
+				<Item Name="Number to String.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/FileUtilities/Number to String.vi"/>
+				<Item Name="Conversion.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/LV-Data/Macros/Conversion.lvclass"/>
+				<Item Name="Dictionary Create__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Create__ogtk.vi"/>
+				<Item Name="Dictionary Data__ogtk.ctl" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Data__ogtk.ctl"/>
+				<Item Name="Dictionary Object RefNum__ogtk.ctl" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Object RefNum__ogtk.ctl"/>
+				<Item Name="Dictionary Object RefNum - Enum__ogtk.ctl" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Object RefNum - Enum__ogtk.ctl"/>
+				<Item Name="Dictionary New__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary New__ogtk.vi"/>
+				<Item Name="Dictionary Open Object Reference__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Open Object Reference__ogtk.vi"/>
+				<Item Name="Dictionary Object Data Core Task Enum__ogtk.ctl" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Object Data Core Task Enum__ogtk.ctl"/>
+				<Item Name="Dictionary Object Ref Type__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Object Ref Type__ogtk.vi"/>
+				<Item Name="Dictionary Object Data Store VI Ref Type__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Object Data Store VI Ref Type__ogtk.vi"/>
+				<Item Name="Dictionary Object Data Store__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Object Data Store__ogtk.vi"/>
+				<Item Name="Dictionary Default Data__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Default Data__ogtk.vi"/>
+				<Item Name="Dictionary Data Store VI Name__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Data Store VI Name__ogtk.vi"/>
+				<Item Name="Dictionary Data Core__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Data Core__ogtk.vi"/>
+				<Item Name="Dictionary Get Data to Modify__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Get Data to Modify__ogtk.vi"/>
+				<Item Name="Dictionary Get Instance Semaphore RefNum__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Get Instance Semaphore RefNum__ogtk.vi"/>
+				<Item Name="Dictionary Set Modified Data__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Set Modified Data__ogtk.vi"/>
+				<Item Name="Dictionary Get Value__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Get Value__ogtk.vi"/>
+				<Item Name="Dictionary Get Data__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Get Data__ogtk.vi"/>
+				<Item Name="Dictionary Destroy__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Destroy__ogtk.vi"/>
+				<Item Name="Dictionary Delete__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Delete__ogtk.vi"/>
+				<Item Name="Dictionary Close Object Reference__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Close Object Reference__ogtk.vi"/>
+				<Item Name="Dictionary Get Keys__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Get Keys__ogtk.vi"/>
+				<Item Name="Increment Filename.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/FileUtilities/Increment Filename.vi"/>
+				<Item Name="Is String Number.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/FileUtilities/Support/Is String Number.vi"/>
+				<Item Name="Logger.Error.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Logger.Error/Logger.Error.lvlib"/>
+				<Item Name="Instrument-VIM.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Instrument Framework/Instrument-VIM/Instrument-VIM.lvlib"/>
+				<Item Name="MGI Get Executable Version.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_MGI/Application Control/MGI Get Executable Version.vi"/>
+				<Item Name="RemoteControl.ZMQ.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/RemoteControl.ZMQ/RemoteControl.ZMQ.lvlib"/>
+				<Item Name="Instrument.Amplifier.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Instrument Framework/Instrument Types/Amplifier/Instrument.Amplifier.lvclass"/>
+				<Item Name="openg_boolean__ogtk.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/boolean/boolean.llb/openg_boolean__ogtk.lvlib"/>
+				<Item Name="Instrument.CBridge.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Instrument Framework/Instrument Types/CBridge/Instrument.CBridge.lvclass"/>
+				<Item Name="Instrument.DelayLine.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Instrument Framework/Instrument Types/Delay Line/Instrument.DelayLine.lvclass"/>
+				<Item Name="Instrument.Strain.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Instrument Framework/Instrument Types/Strain/Instrument.Strain.lvclass"/>
+				<Item Name="Instrument.VNA.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Instrument Framework/Instrument Types/VNA/Instrument.VNA.lvclass"/>
+				<Item Name="Instrument.VSource.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Instrument Framework/Instrument Types/VSource/Instrument.VSource.lvclass"/>
+				<Item Name="KH7008.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Krohn Hite 7008/KH7008/KH7008.lvlib"/>
+				<Item Name="YAML.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/PLYM/YAML.lvclass"/>
+				<Item Name="MGI Remove All Whitespace.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_MGI/String/MGI Remove All Whitespace.vi"/>
+				<Item Name="Dictionary Get Items__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Get Items__ogtk.vi"/>
+				<Item Name="Dictionary Not a Dictionary__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Not a Dictionary__ogtk.vi"/>
+				<Item Name="Dictionary Key Value Pair Cluster__ogtk.ctl" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Key Value Pair Cluster__ogtk.ctl"/>
+				<Item Name="Dictionary Has Key__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Has Key__ogtk.vi"/>
+				<Item Name="Dictionary Update__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Update__ogtk.vi"/>
+				<Item Name="Dictionary Update (by value)__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Update (by value)__ogtk.vi"/>
+				<Item Name="Dictionary Update (by reference)__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Update (by reference)__ogtk.vi"/>
+				<Item Name="Dictionary Update (by scalar value)__ogtk.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/dictionary/dictionary.llb/Dictionary Update (by scalar value)__ogtk.vi"/>
+				<Item Name="Inst.KH7008.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Krohn Hite 7008/Inst.KH7008.lvlib"/>
+				<Item Name="Instrument.Lockin.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Lockin-Multichannel/Instrument.Lockin.lvlib"/>
+				<Item Name="DAQmx.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Lockin-Multichannel/DAQmx/DAQmx.lvclass"/>
+				<Item Name="MGI String Pattern Match Exists.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_MGI/String/MGI String Pattern Match Exists.vi"/>
+				<Item Name="Generator.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Lockin-Multichannel/Generator/Generator.lvclass"/>
+				<Item Name="DSP.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Lockin-Multichannel/DSP/DSP.lvclass"/>
+				<Item Name="Ramp_SubVI.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Control VI/Other/Ramp_SubVI.vi"/>
+				<Item Name="MGI Milliseconds Since Last Call.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_MGI/Timing/MGI Milliseconds Since Last Call.vi"/>
+				<Item Name="MGI Milliseconds Since Last Reset.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_MGI/Timing/MGI Milliseconds Since Last Reset.vi"/>
+				<Item Name="MGI Create Directory Chain Behavior Enum.ctl" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_MGI/File/MGI Create Directory Chain Behavior Enum.ctl"/>
+				<Item Name="MGI Create Directory Chain.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_MGI/File/MGI Create Directory Chain.vi"/>
+				<Item Name="Inst.Transport.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Transport/Transport Server/Inst.Transport/Inst.Transport.lvclass"/>
+				<Item Name="Instrument.SCPI.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Instrument Framework/Instrument Types/SCPI/Instrument.SCPI.lvclass"/>
+				<Item Name="Instrument.SignalGenerator.lvclass" Type="LVClass" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/LevyLab/Instrument Framework/Instrument Types/SignalGenerator/Instrument.SignalGenerator.lvclass"/>
+				<Item Name="MGI True if Odd.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_MGI/Numeric/Comparison/MGI True if Odd.vi"/>
+				<Item Name="MGI Is Runtime.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_MGI/Application Control/MGI Is Runtime.vi"/>
+				<Item Name="MGI Wait.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_MGI/Timing/MGI Wait.vi"/>
+				<Item Name="MGI Wait (U32).vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_MGI/Timing/MGI Wait/MGI Wait (U32).vi"/>
+				<Item Name="MGI Wait (Double).vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_MGI/Timing/MGI Wait/MGI Wait (Double).vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -637,6 +637,12 @@
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 				<Item Name="compatWriteText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatWriteText.vi"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="DAQmx Create Channel (Power).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (Power).vi"/>
+				<Item Name="DAQmx Read (Power 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 2D I16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D I16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power DBL 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D DBL NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL NChan 1Samp).vi"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
